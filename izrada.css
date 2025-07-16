@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
- 
+
 * {
     box-sizing: border-box;
 }
@@ -15,7 +15,7 @@ html, body {
 
 body {
     padding: 0 10%;
-    background-image: url("slike/pozadina.png");
+    background-image: url("slike/pozadina.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
