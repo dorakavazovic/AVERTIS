@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Avertis | Klimatizacija i grijanje Rijeka</title>
+    <meta name="description" content="Avertis nudi profesionalnu klimatizaciju, grijanje, montažu i servis u Rijeci i okolici. Brza intervencija i vrhunska kvaliteta.">
+
+    <link rel="icon" href="slike/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="slike/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="slike/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="slike/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="slike/favicon/site.webmanifest">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cookies.css">
+    <link rel="canonical" href="https://www.avertis.hr/">
+
+    <meta name="description" content="Avertis - stručnjaci za klime, grijanje i vodoinstalacije u Rijeci i okolici. Ugradnja, servis i održavanje. Brzo i pouzdano.">
+    <meta name="keywords" content="klima Rijeka, klimatizacija Rijeka, grijanje Rijeka, ugradnja klima Rijeka, servis klima Rijeka">
+
+    <meta property="og:title" content="Avertis | Klimatizacija i grijanje Rijeka">
+    <meta property="og:description" content="Stručna ugradnja i servis klima uređaja, grijanja i vodoinstalacija u Rijeci i okolici.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.avertis.hr/">
+    <meta property="og:image" content="https://www.avertis.hr/slike/avertis-1200x1200.jpg">
+
+    <!-- LocalBusiness Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Avertis",
+        "image": "https://www.avertis.hr/slike/logotip-ime.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Janka Polića Kamova 101",
+            "addressLocality": "Rijeka",
+            "postalCode": "51000",
+            "addressCountry": "HR"
+        },
+        "telephone": "+385976115632",
+        "url": "https://www.avertis.hr",
+        "priceRange": "€€"
+    }
+    </script>
+
+</head>
+
+<body>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Ova stranica koristi kolačiće za analitiku i oglase (Google Analytics i Google Ads).</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Prihvati</button>
+            <button id="decline-cookies">Odbij</button>
+        </div>
+    </div>
+
+    <nav>
+
+        <div class="logo"><a href="#" style="text-decoration: none; color: #111;">AVERTIS</a></div>
+
+        <div class="nav-links">
+            <a href="#usluge">Usluge</a>
+            <a href="#zasto">Zašto mi</a>
+            <a href="#podrucje">Područje</a>
+            <a href="#kontakt">Kontakt</a>
+        </div>
+
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    </nav>
+
+    <div class="menu" id="menu">
+        <a href="#usluge" onclick="toggleMenu()">Usluge</a>
+        <a href="#zasto" onclick="toggleMenu()">Zašto mi</a>
+        <a href="#podrucje" onclick="toggleMenu()">Područje</a>
+        <a href="#kontakt" onclick="toggleMenu()">Kontakt</a>
+    </div>
+
+    <section class="hero">
+
+        <div class="hero-text">
+            <h1>Savršena klima u <span class="orange">vašem prostoru</span></h1>
+
+            <p>Specijalizirani za klimatizaciju i grijanje - osiguravamo idealnu temperaturu tijekom cijele godine uz brzu i profesionalnu uslugu.</p>
+
+            <div class="hero-buttons">
+                <button class="btn primary"><a href="tel:+385976115632">Zatraži ponudu</a></button>
+                <button class="btn secondary" onclick="document.getElementById('usluge').scrollIntoView()">Naše usluge</button>
+            </div>
+
+            <div class="features">
+                <span>Dolazak u kratkom roku</span>
+                <span>Precizna montaža</span>
+                <span>Vrhunska oprema</span>
+            </div>
+
+        </div>
+
+        <img src="slike/logotip.webp" alt="Avertis logo">
+
+    </section>
+
+    <section id="usluge" class="gray">
+
+        <div class="title">
+            <div class="bar"></div>
+                <h2>Naše usluge</h2>
+            <p>Kompletna rješenja za vaš dom ili poslovni prostor.</p>
+        </div>
+
+        <div class="cards">
+
+            <div class="card open-modal"
+                data-title="Klimatizacija"
+                data-desc="Ugradnja i održavanje klima uređaja svih tipova - split, multisplit i inverter sustavi. Instalacija uključuje profesionalno postavljanje unutarnje i vanjske jedinice, testiranje sustava i kratku obuku za korištenje. Cijena montaže počinje od 250 €, ovisno o vrsti uređaja i složenosti instalacije.">
+
+                <h3>Klimatizacija</h3>
+                <p>Prodaja, ugradnja i održavanje modernih klima sustava za maksimalnu energetsku učinkovitost.</p>
+
+                <ul>
+                    <li>Hlađenje i grijanje</li>
+                    <li>Pročišćavanje zraka</li>
+                    <li>Energetska učinkovitost</li>
+                </ul>
+
+            </div>
+
+            <div class="card open-modal"
+                data-title="Grijanje"
+                data-desc="Ugradnja i servis sustava grijanja, uključujući radijatore, cijevne instalacije, toplinske pumpe i podno grijanje. Osiguravamo pravilno balansiranje sustava, sigurno spajanje i efikasnu distribuciju topline. Cijena se prilagođava vašem prostoru i odabranoj opremi. Svaku ponudu izrađujemo individualno kako biste dobili najbolje rješenje.">
+
+                <h3>Grijanje</h3>
+                <p>Pouzdani sustavi grijanja koji pružaju toplinu uz niže troškove energije.</p>
+
+                <ul>
+                    <li>Podno grijanje</li>
+                    <li>Toplinske pumpe</li>
+                    <li>Radijatorsko grijanje</li>
+                </ul>
+
+            </div>
+
+            <div class="card open-modal"
+                data-title="Montaža"
+                data-desc="Profesionalna montaža svih vrsta opreme - klima, radijatori, sustavi grijanja. Uključuje precizno postavljanje, sigurno spajanje instalacija i test funkcionalnosti. Ukupna cijena montaže formira se prema vrsti uređaja, zahtjevnosti instalacije i potrebnom materijalu. Primjerice, montaža klima uređaja počinje od 250 €, dok jednostavniji zahvati, poput montaže slavine, kreću od 40 €.">
+
+                <h3>Montaža</h3>
+                <p>Brza, uredna i profesionalna instalacija bez kompromisa na kvaliteti.</p>
+
+                <ul>
+                    <li>Brza ugradnja</li>
+                    <li>Čista izvedba</li>
+                    <li>Stručni tim</li>
+                </ul>
+
+            </div>
+
+            <div class="card open-modal"
+                data-title="Servis"
+                data-desc="Redovni servis i čišćenje sustava klimatizacije i grijanja za optimalnu učinkovitost i dugotrajnost opreme. Uključuje provjeru curenja, čišćenje filtera i funkcionalni test. Servis klima uređaja počinje od 40 €, a sustava grijanja od 60 € po posjeti.">
+                
+                <h3>Servis</h3>
+                <p>Redovno održavanje i hitne intervencije kako bi vaši uređaji radili besprijekorno.</p>
+
+                <ul>
+                    <li>Preventivni pregledi</li>
+                    <li>Hitne intervencije</li>
+                    <li>Čišćenje uređaja</li>
+                </ul>
+
+            </div>
+
+            <div class="modal-overlay" id="modal">
+                <div class="modal">
+                    <button class="close-modal">&times;</button>
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-desc"></p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="zasto">
+
+        <div class="title">
+            <div class="bar"></div>
+            <h2>Zašto odabrati Avertis?</h2>
+        </div>
+
+        <div class="why">
+            <div>
+                <h3>✔ Brzina i pouzdanost</h3>
+                <p>Naš tim dolazi na vrijeme i posao obavlja brzo, bez nepotrebnog čekanja. Znamo koliko je važna ugodna temperatura u vašem prostoru, zato reagiramo odmah.</p>
+            </div>
+            
+            <div>
+                <h3>✔ Stručnost i iskustvo</h3>
+                <p>Radimo s provjerenom opremom i pratimo najnovije standarde u klimatizaciji i grijanju. Svakom projektu pristupamo profesionalno i s pažnjom prema detaljima.</p>
+            </div>
+
+            <div>
+                <h3>✔ Individualni pristup</h3>
+                <p>Slušamo vaše potrebe i nudimo rješenja prilagođena baš vama – bez univerzalnih ponuda. Cilj nam je dugoročno zadovoljstvo svakog klijenta.</p>
+            </div>
+
+            <div>
+                <h3>✔ Kvaliteta bez kompromisa</h3>
+                <p>Koristimo pouzdane materijale i garantiramo preciznu ugradnju kako bi vaš sustav radio besprijekorno godinama.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="podrucje" class="area">
+
+        <div style="min-width: 40%;">
+            <div class="title">
+                <div class="bar"></div>
+                <h2>Područje djelovanja</h2>
+                <p>Pružamo usluge u Rijeci i okolici, po dogovoru i u ostatku Hrvatske. Bez obzira gdje se nalazite, tu smo za vas.</p>
+            </div>
+
+            <div class="checklist">
+                ✔ Rijeka<br>
+                ✔ Kastav<br>
+                ✔ Bakar<br>
+                ✔ Lovran<br>
+                ✔ Opatija<br>
+                ✔ Viškovo<br>
+                ✔ Kraljevica<br>
+                ✔ Ičići<br>
+                ✔ Matulji<br>
+                ✔ Kostrena<br>
+                ✔ Crikvenica<br>
+                ✔ Klana
+            </div>
+        </div>
+
+        <iframe src="https://maps.google.com/maps?q=rijeka&t=&z=11&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="350"></iframe>
+
+    </section>
+
+    <section id="kontakt">
+
+        <div class="kontakt">
+            <div class="title">
+                <div class="bar"></div>
+                <h2>Kontaktirajte nas</h2>
+                <p>Pošaljite upit i odgovaramo u najkraćem roku.</p>
+            </div>
+
+                <div class="contact-box">📞 Telefon<br><strong><a href="tel:+385976115632">+385 97 611 5632</a></strong></div>
+                <div class="contact-box">✉ Email<br><strong><a href="mailto:info@avertis.hr">info@avertis.hr</a></strong></div>
+                <div class="contact-box">📍 Lokacija<br><strong>Rijeka i okolica</strong></div>
+
+
+            <div class="emergency">
+                <h3>Hitna intervencija?</h3>
+                <p>Nazovite nas odmah — dostupni smo za brze izlaske na teren.</p>
+                <button class="btn primary"><a href="tel:+385976115632">Nazovi odmah</a></button>
+            </div>
+        </div>
+
+        <form action="https://formspree.io/f/mlgwnrkb" method="POST">
+            <h2>Zatražite ponudu</h2>
+            <input type="text" name="_gotcha" style="display:none">
+            
+            <div class="row">
+                <div class="field">
+                    <label>Ime i prezime</label>
+                    <input type="text" name="ime" placeholder="Ivan Horvat" required>
+                </div>
+                <div class="field">
+                    <label>Telefon</label>
+                    <input type="tel" name="telefon" placeholder="091 123 4567" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="ivan@example.com" required>
+            </div>
+
+            <div class="field">
+                <label>Vaša poruka</label>
+                <textarea name="poruka" rows="5" placeholder="Opišite što Vam treba - vrsta usluge, lokacija, željeni termin..."></textarea>
+            </div>
+
+            <button type="submit" class="btn primary">Pošalji upit</button>
+        </form>
+
+    </section>
+
+    <footer>
+
+        <div class="footer">
+            <div class="prvi">
+                <h3>AVERTIS</h3>
+                <p>Stručnjaci za klimatizaciju, grijanje, montažu i servis.</p>
+            </div>
+            <div>
+                <h4>Brze veze</h4>
+
+                <a href="#usluge">Usluge</a><br>
+                <a href="#zasto">Zašto mi</a><br>
+                <a href="#podrucje">Područje</a><br>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+            <div>
+                <h4>Kontakt</h4>
+                
+                <a href="tel:+385976115632">+385 97 611 5632</a><br>
+                <a href="mailto:info@avertis.hr">info@avertis.hr</a><br>
+                <a>Rijeka, Hrvatska</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div>© <span id="year"></span> Avertis. Sva prava pridržana.</div>
+            <div>Klimatizacija | Grijanje | Montaža | Servis</div>
+        </div>
+
+    </footer>
+
+    <script>
+
+        function toggleMenu(){
+        document.getElementById("menu").classList.toggle("active");
+        }
+
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+
+        const modal = document.getElementById("modal");
+        const title = document.getElementById("modal-title");
+        const desc = document.getElementById("modal-desc");
+        const closeBtn = document.querySelector(".close-modal");
+
+        document.querySelectorAll(".open-modal").forEach(btn => {
+        btn.addEventListener("click", () => {
+            title.textContent = btn.dataset.title;
+            desc.textContent = btn.dataset.desc;
+            modal.classList.add("active");
+        });
+        });
+
+        closeBtn.addEventListener("click", () => {
+        modal.classList.remove("active");
+        });
+
+        modal.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.classList.remove("active");
+        }
+        });
+
+    </script>
+    <script src="cookies.js"></script>
+
+</body>
+</html>
